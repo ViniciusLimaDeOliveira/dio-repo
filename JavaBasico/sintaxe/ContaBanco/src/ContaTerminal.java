@@ -12,7 +12,7 @@ public class ContaTerminal {
 
         System.out.println("Por favor, digite o número da Agência");
         numero = scanner.nextInt();
-        scanner.nextLine();
+        scanner.nextLine();//Limpando o buffer do scanner
         System.out.println("Por favor, digite a Agência");
         agencia = scanner.nextLine();
         System.out.println("Por favor, digite o nome do Cliente");
